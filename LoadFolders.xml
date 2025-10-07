@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <loadFolders>
-	
-	<v1.5>
-        <li>1.5</li>
-        <li>Cont</li>
-        <li IfModActive="Owlchemist.SeedsPleaseLite">Seedsplease</li>
-		<li IfModActive="Owlchemist.SeedsPleaseLite">SeedspleaseTranslation</li>
-        <li IfModActive="mihotattoo.outremer">Tattoo</li>
-		
-		<li>HSK</li>
-    </v1.5>
+
+  <v1.5>
+    <li>1.5</li>
+    <li>Cont</li>
+    <li IfModActive="notfood.seedsplease">Seedsplease</li>
+    <li IfModActive="mihotattoo.outremer">Tattoo</li>
+
+    <li>HSK</li>
+  </v1.5>
+
 </loadFolders>

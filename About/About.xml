@@ -1,35 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ModMetaData>
-	<name>Miho, the celestial fox</name>
-	<author>Outremer, Fortified_Home</author>
-	<url></url>
-  <supportedVersions>
-	<li>1.3</li>
-	<li>1.4</li>
-	<li>1.5</li>
-
-  </supportedVersions>
-	<packageId>miho.fortifiedoutremer</packageId>
-    <modIconPath IgnoreIfNoMatchingField="True">Icon/mihomodicon</modIconPath>
-
-	<description>Wow! Fluffy Foxes!</description>
-	<modDependencies>
-		<li>
-			<packageId>brrainz.harmony</packageId>
-			<displayName>Harmony</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
-			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
-		</li>
-    <li>
-      <packageId>erdelf.HumanoidAlienRaces</packageId>
-      <displayName>HumanoidAlienRaces</displayName>
-      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
-    </li>
-    </modDependencies>
-		<loadAfter>
-			<li>brrainz.harmony</li>
-			<li>erdelf.HumanoidAlienRaces</li>
-			<li>Owlchemist.SeedsPleaseLite</li>
-
-		</loadAfter>
+   <name>Miho, the celestial fox</name>
+   <author>Outremer, Fortified_Home</author>
+   <url>https://github.com/PjotrRock/MihoCF_Main_HSK_Compatible</url>
+   <supportedVersions>
+      <li>1.5</li>
+   </supportedVersions>
+   <packageId>miho.fortifiedoutremer</packageId>
+   <modIconPath IgnoreIfNoMatchingField="True">Icon/mihomodicon</modIconPath>
+   <description>Wow! Fluffy Foxes!</description>
+   <modDependencies>
+      <li>
+         <packageId>brrainz.harmony</packageId>
+         <displayName>Harmony</displayName>
+         <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+         <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+      </li>
+      <li>
+         <packageId>erdelf.HumanoidAlienRaces</packageId>
+         <displayName>HumanoidAlienRaces</displayName>
+         <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+      </li>
+   </modDependencies>
+   <loadAfter>
+      <li>brrainz.harmony</li>
+      <li>erdelf.HumanoidAlienRaces</li>
+      <li>skyarkhangel.HSK</li>
+      <li>CETeam.CombatExtended</li>
+      <li>notfood.seedsplease</li>
+      <li>Owlchemist.SeedsPleaseLite</li>
+   </loadAfter>
 </ModMetaData>
